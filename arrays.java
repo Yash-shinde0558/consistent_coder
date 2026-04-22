@@ -7,12 +7,12 @@ public class arrays {
 
         int rohan[] = new int[7] ;
 
-        //take input
+        //take inputt
         for(int i=0; i<7 ; i++){
             rohan[i] = sc.nextInt();
         }
 
-        //Print Output
+        //Print Outputt
         for(int i=0; i<7; i++) {
             System.out.print(rohan[i]*2);
         }
