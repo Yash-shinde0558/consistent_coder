@@ -6,7 +6,7 @@ public class arrays {
         Scanner sc = new Scanner(System.in);
 
         int rohan[] = new int[7] ;
-
+        
         //take inputt
         for(int i=0; i<7 ; i++){
             rohan[i] = sc.nextInt();
