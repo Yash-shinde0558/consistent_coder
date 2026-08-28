@@ -3,29 +3,27 @@ import java.util.Scanner;
 public class Palindrome {
 
     public static void main(String[]args){
+    
+        //Even or odd ?
+      Scanner sc = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number : ");
-        int n = sc.nextInt();
-        int count = 0;
-        
-        for(int i=1; i<=n; i++){
-             if(n%i == 0){
-                count++;
-            }        
+      System.out.print("Enter a number : ");
+      int num = sc.nextInt();
+
+      int count = 0;
+
+      for(int i=1; i<=num; i++){
+
+        if(num%i == 0){
+            count++;
         }
+      }
 
-        if(count == 0){
-            System.out.println("Prime number...");
+      if(count == 2) {
+            System.out.println("Prime Number...");
         }else{
-            System.out.println("Not Prime...");
+            System.out.println("Not Prime Number...");
         }
-        
 
-        if(n%2 == 0){
-            System.out.println("Number is Even...");
-        }else{
-            System.out.println("Number is Odd...");
-        }
     }
 }
