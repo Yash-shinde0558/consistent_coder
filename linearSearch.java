@@ -8,6 +8,8 @@ public class linearSearch{
 
             if(arr[i]==target){
                 System.out.println("Index : " + i);
+            }else{
+                System.out.println("Not in array ");
             }
             
         }   
